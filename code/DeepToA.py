@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=
                                      """ Welcome to DeepToA.
-                                     An ensemble deep learning framework for predicting the source of ToA(microbial community)
+                                     An ensemble deep learning framework for predicting the Theater of Activity ToA or source (for microbial community)
                                      Specific instructions can be found in README.md file.
                                      >> example commandline （User's data, ensemble model）
                                      >> ./DeepToA.py python code/main.py

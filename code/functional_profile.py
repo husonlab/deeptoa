@@ -1,7 +1,7 @@
 '''
 prepare functional profile for building classification model
-using interpro abundance table to build the classification model
-build model on the dataset with description
+Either using interpro abundance table to build the classification model
+It can also be used to build model on the dataset with description
 '''
 import pandas as pd
 import numpy as np
