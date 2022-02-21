@@ -1,5 +1,5 @@
 '''
-build model on processed taxonomic profile
+Predict sample source by processed taxonomic profile, processed functional profile or ensemble model.
 '''
 import argparse
 import warnings
