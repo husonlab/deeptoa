@@ -326,7 +326,7 @@ def func_faEmb(fa_data, mg_data):
     fa_data.iloc[fa_data.shape[0]-1,0] = 'add' 
     df_1 = mg_data
     df_1.loc[df_1.shape[0]-1] = 'add'
-    fa_df = pd.merge(fa_data, df_1[['ID','biom']], on='ID', how='inner') # 7561*13043, 1513*13043
+    fa_df = pd.merge(fa_data, df_1[['ID','biom']], on='ID', how='right') # 7561*13043, 1513*13043
     print (fa_df)
 
     add_df = pd.DataFrame(fa_df.iloc[fa_df.shape[0]-1, 0:len(fa_df.columns)-1])
